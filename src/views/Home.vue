@@ -1,5 +1,5 @@
 <template>
-  <section class="home page">
+  <section class="home page bg-dark">
     <div class="jumbotron">
       <h1 class="display-3">Welcome home</h1>
       <p class="lead">This page is a home page</p>
@@ -21,196 +21,16 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet animi atque beatae
-            commodi
-            consequatur cumque dicta distinctio eligendi esse ex facere harum ipsa ipsam laboriosam magni,
-            maiores modi
-            optio perferendis placeat repellat sapiente suscipit vel veniam vero vitae voluptates! Corporis
-            deserunt ea
-            impedit in inventore modi natus obcaecati?</p>
-        </div>
-      </div>
-    </div>
-
   </section>
 
 </template>
+
+<style>
+  p{
+    background-color: yellow;
+  }
+</style>
+
 
 <script>
 // @ is an alias to /src
