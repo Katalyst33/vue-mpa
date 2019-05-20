@@ -10,8 +10,9 @@
         <hr>
       <h3 class="text-danger font-weight-bold"> you have only 10 chances </h3>
 
-
-      <a class="btn btn-success btn-lg" href="Jumbo action link" role="button"><router-link class="text-white" to="/game">Start Game</router-link></a>
+      <router-link class="text-white" to="/game">
+      <a class="btn btn-success btn-lg" href="Jumbo action link" role="button">
+        Start Game</a></router-link>
     </div>
 
   </section>

@@ -1,3 +1,4 @@
+
 <template>
     <section class="home page">
         <div class="jumbotron text-center">
@@ -15,16 +16,44 @@
                 <input type="text" id="guessField" class="guessField">
                 <input name="" id="myBtn" class="guessSubmit btn btn-primary" type="submit" value="Submit guess">
             </div>
+
+            <div>
+                <input type="text" v-model="message">
+                <p>{{message}}</p>
+            </div>
         </div>
+        <div id="example-1">
+            <button v-on:click="counter += 1">Add 1</button>
+            <p>The button above has been clicked {{ counter }} times.</p>
+        </div>
+
     </section>
 </template>
 
 <script>
 
-alert('hello xam')
+
+    export default {
+      el: '#example-1',
+      data: {
+        counter: 0
+      }
+    }
 
 </script>
 
+
+<!--<script>
+  export default {
+    el: '#example-1',
+    data() {
+      counter: 0
+      return {
+        message:''
+      }
+    }
+  }
+</script>-->
 <!--<script>
 let randomNumber = Math.floor(Math.random() * 100) + 1
 document.getElementById('answer').innerHTML = randomNumber
