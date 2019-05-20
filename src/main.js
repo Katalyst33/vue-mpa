@@ -9,11 +9,7 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
-/*
-<style>
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
-</style>
-*/
+
 
 Vue.config.productionTip = false
 

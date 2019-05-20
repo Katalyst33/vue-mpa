@@ -7,7 +7,11 @@
 </template>
 
 <style>
-    body {
-        background-color: yellow;
+    #app{
+        /*background-color: yellow;*/
+        font-family: 'Indie Flower', cursive;
     }
+   /* p{
+        background-color: yellow;
+    }*/
 </style>
