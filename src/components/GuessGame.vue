@@ -14,7 +14,7 @@
             <div class="form">
                 <label for="guessField">Enter a guess: </label>
                 <input type="text" id="guessField" class="guessField">
-                <input name="" id="myBtn" class="guessSubmit btn btn-primary" type="submit" value="Submit guess">
+                <input name="" id="myBtn" v-on:click="doStuff" class="guessSubmit btn btn-primary" type="submit" value="Submit guess">
             </div>
 
             <div>
@@ -23,7 +23,7 @@
             </div>
         </div>
         <div id="example-1">
-            <button v-on:click="counter += 1">Add 1</button>
+            <button v-on:click="doStuff">Add 1</button>
             <p>The button above has been clicked {{ counter }} times.</p>
         </div>
 
@@ -31,14 +31,13 @@
 </template>
 
 <script>
-
-
-    export default {
-      el: '#example-1',
-      data: {
-        counter: 0
+  export default {
+    methods: {
+    doStuff () {
+      alert('Did something')
       }
     }
+  }
 
 </script>
 
