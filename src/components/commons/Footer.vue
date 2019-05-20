@@ -49,7 +49,7 @@
             <div class="container-fluid">
             <div class="row text-center">
             <div class="col-12">
-               <p class="px-5"> <img class="" src="../../assets/avatar.png" height="50" width="50"/>Username</p>
+               <p class="px-5"> <img class="" src="../../assets/avatar.png" height="50" width="50"/><span class="bg-success rounded text-white px-3 py-1 ">Username</span></p>
             </div>
 
             </div>

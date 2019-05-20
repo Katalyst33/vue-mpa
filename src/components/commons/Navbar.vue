@@ -14,7 +14,11 @@
                 <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/about">Username</router-link>
+                        <router-link class="nav-link" to="/about">Sign in</router-link>
+                    </li>
+
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/about">Sign up</router-link>
                     </li>
 
                 </ul>
