@@ -1,0 +1,10 @@
+
+<template>
+    <div>
+    <app-navbar></app-navbar>
+    <app-footer></app-footer>
+    </div>
+
+</template>
+
+>
