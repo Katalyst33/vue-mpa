@@ -1,26 +1,28 @@
-
 <template>
     <section class="home page">
         <div class="jumbotron text-center">
-<!--          alert-->
-            <div>
-                <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                    With Bootstrap!
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
+            <!--          alert-->
+            <div v-if="alert.show" :class="'alert alert-'+alert.type+' alert-dismissible fade show'" role="alert">
+                {{alert.message}}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-            <div class="form">
+            <div class="form-group">
                 <label for="guessField">Enter a guess: </label>
-                <input type="text" id="guessField" class="guessField">
-                <input name="" id="myBtn" v-on:click="doStuff" class="guessSubmit btn btn-primary" type="submit" value="Submit guess">
+                <input v-model="guessField" type="text" id="guessField" class="form-control guessField shadow-sm">
+                <small v-text="randomNumber"></small>
             </div>
 
-            <div>
-                <input type="text" v-model="message">
-                <p>{{message}}</p>
+<!--            previous guess-->
+            <div class="col-12 text-center">
+            <div class="bg-dark text-white  mx-5 py-2 rounded shadow-sm">{{guessField}}</div>
             </div>
+
+            <div class="mt-3">
+                <button @click="checkGuess" type="button" class="btn btn-primary">Guess Now !</button>
+            </div>
+
         </div>
         <div id="example-1">
             <button v-on:click="doStuff">Add 1</button>
@@ -32,9 +34,54 @@
 
 <script>
   export default {
+    data () {
+      return {
+        guessField: null,
+        guessCount: 0,
+        randomNumber: 0,
+        alert: {
+
+          show: false,
+          type: 'danger',
+          message: '',
+        }
+      }
+    },
+    mounted () {
+      this.randomNumber = Math.floor(Math.random() * 100) + 1
+    },
     methods: {
-    doStuff () {
-      alert('Did something')
+      doStuff () {
+        alert('Did something')
+
+      },
+      GuessNow () {
+        this.alert.type = 'info'
+
+      },
+
+      alertSuccess (msg = '') {
+        this.alert.show = true;
+        this.alert.type = 'success'
+        this.alert.message = msg
+      },
+
+      alertError (msg = '') {
+        this.alert.show = true;
+        this.alert.type = 'danger'
+        this.alert.message = msg
+      },
+
+      checkGuess () {
+        this.guessField = Number(this.guessField)
+        if (this.guessField === this.randomNumber) {
+          return this.alertSuccess('You are correct')
+        } else {
+           this.alertError('Try again')
+          // this,previousGuess+=
+        }
+        this.guessCount++
+
       }
     }
   }

@@ -1,6 +1,9 @@
 
+
 <template>
-    <div id="app">
+
+
+    <div id="app" >
         <div class="navbar navbar-expand-lg navbar-dark bg-dark py-3" id="navbar">
             <img src="../../assets/logo.png" height="50" width="50"/>
             <h3 class="navbar-brand px-3" href="#">Gusess The Number Game</h3>
